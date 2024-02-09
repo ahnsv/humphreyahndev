@@ -4,7 +4,7 @@ import Image from "next/image";
 import { myLoader } from "@/utils/all";
 import VercelLogo from "../public/img/vercel.svg";
 
-export default function Footer(props) {
+export default function rooter(props) {
   return (
     <Container className="mt-10 border-t border-gray-100 dark:border-gray-800">
       <div className="text-center text-sm">
@@ -55,7 +55,6 @@ export default function Footer(props) {
         </div>
         <ThemeSwitch />
       </div>
-      <Backlink />
     </Container>
   );
 }
